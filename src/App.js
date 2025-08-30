@@ -114,7 +114,11 @@ export const App = () => {
                                         <li>Find the total returns handled by each sales manager.</li>
                                         <li>Compare sales vs. returns per manager to identify trends.</li>
                                     </ul>
-
+                                    <p style={{ marginBottom: "0px" }}><b>5. Sales Ret Rate Measure</b></p>
+                                    <ul>
+                                        <li>Create a measure called "Sales Ret Rate" using the formula: <b>Sales Ret Rate = [Sales Return]/SUM(Orders[Sales])</b></li>
+                                        <li>Use this measure to analyze the return rate across different regions and sales managers.</li>
+                                    </ul>
                                 </div>
                             </div>
                             <div
